@@ -1,0 +1,67 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+.container{
+    position: relative;
+
+}
+
+.ekran{
+    position: absolute;
+    top:50px;
+    left: 63px;
+    width: 175px;
+    height: 73px;
+    background-color: rgb(116, 181, 51);
+    border: none;
+    border-radius: 10px;
+    outline: auto;
+    font-size: 67px;
+    text-align: center;
+    caret-color: rgb(116, 181, 51) ;
+}
+.button{
+    position: absolute;
+    background: gray;
+    top: 180px;
+    left: 105px;
+    width: 90px;
+    height: 90px;
+    border: none;
+    border-radius: 50%;
+
+}
+.button:active{
+    width: 84px;
+    height: 84px;
+    text-align: center;
+    top: 183px;
+    left:110px ;
+}
+
+.delet{
+    position: absolute;
+    background: gray;
+    top: 156px;
+    left: 195px;
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 50%;
+}
+
+.delet:active{
+    width: 24.5px;
+    height: 24.5px;
+    top:158px;
+    left: 199px; ;
+} 
+
+
